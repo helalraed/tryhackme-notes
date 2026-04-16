@@ -31,3 +31,7 @@
 * HTTP is not secure (no encryption)
 * HTTPS uses TLS encryption
 * DNS resolves domain names to IP addresses
+* ## 🚨 Security Insight
+
+- Telnet is insecure (plaintext)
+- Always prefer encrypted protocols (SSH, HTTPS)
