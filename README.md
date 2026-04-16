@@ -1,15 +1,24 @@
-[# 🛡️ TryHackMe Notes
+# 🛡️ TryHackMe Notes – Hilal
 
 Welcome to my cybersecurity learning journey 🚀
-This repository contains my notes and hands-on practice from TryHackMe.
+This repository documents my hands-on practice and notes from TryHackMe.
+
+---
+
+## 👨‍💻 About Me
+
+* Computer Engineering Graduate
+* Interested in Cybersecurity (SOC / Blue Team 🔵)
+* Currently learning through TryHackMe
 
 ---
 
 ## 🎯 Goals
 
 * Build strong networking fundamentals
-* Learn cybersecurity concepts step by step
-* Move toward SOC / Blue Team roles 🔵
+* Understand cybersecurity concepts deeply
+* Gain hands-on experience in penetration testing
+* Prepare for SOC Analyst roles
 
 ---
 
@@ -21,52 +30,50 @@ This repository contains my notes and hands-on practice from TryHackMe.
 
 ### 🔄 Cyber Security 101
 
-* Currently learning
-* Reached: **Cryptography Room**
+* In Progress
+* Current Room: **Cryptography Basics**
 
 ---
 
-## 📂 Topics Covered
+## 📂 Repository Structure
 
-* Networking Fundamentals
-* Nmap
-* Wireshark
-* Tcpdump
-* Cryptography (in progress)
-
----
-
-## 📂 Structure
-
-Each folder represents a TryHackMe room:
-
-```plaintext id="yz2qug"
-nmap/
-wireshark/
-tcpdump/
+```plaintext id="e9u8sl"
+fundamentals/
 networking/
+tools/
+nmap/
 cryptography/
+rooms/
 ```
 
 ---
 
-## 🧠 About Me
+## 🧠 What You'll Find Here
 
-Computer Engineering graduate
-Interested in Cybersecurity (SOC / Blue Team) 🔵
+* Organized notes for each topic
+* Practical commands and examples
+* Key takeaways from each room
+* Hands-on learning experience
 
 ---
 
 ## 🚀 Progress
 
-| Path               | Status        |
-| ------------------ | ------------- |
-| Pre Security       | ✅ Completed   |
-| Cyber Security 101 | ⏳ In Progress |
+| Path               | Status         |
+| ------------------ | -------------- |
+| Pre Security       | ✅ Completed    |
+| Cyber Security 101 | 🔄 In Progress |
 
 ---
 
 ## 💡 Note
 
-All notes are written in my own words to reinforce my understanding.
-](https://github.com/helalraed/tryhackme-notes)
+All notes are written in my own words to reinforce understanding and track my progress.
+
+---
+
+## 🔗 Future Plans
+
+* Add more TryHackMe rooms
+* Build hands-on labs
+* Expand into blue team tools (SIEM, SOC)
