@@ -1,4 +1,4 @@
-# 🛡️ TryHackMe Notes
+[# 🛡️ TryHackMe Notes
 
 Welcome to my cybersecurity learning journey 🚀
 This repository contains my notes and hands-on practice from TryHackMe.
@@ -69,3 +69,4 @@ Interested in Cybersecurity (SOC / Blue Team) 🔵
 ## 💡 Note
 
 All notes are written in my own words to reinforce my understanding.
+](https://github.com/helalraed/tryhackme-notes)
