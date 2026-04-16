@@ -2,14 +2,14 @@
 
 ## 🧠 What is Cryptography?
 
-Cryptography is the practice of securing communication so that only intended parties can read and modify the data.
+Cryptography is the practice of securing communication so that only authorized parties can read and modify the data.
 
 ---
 
 ## 🎯 Goals of Cryptography
 
-* **Confidentiality** → Prevent unauthorized reading
-* **Integrity** → Prevent unauthorized modification
+* **Confidentiality** → Prevent unauthorized access
+* **Integrity** → Ensure data is not altered
 * **Authentication** → Verify identity
 
 ---
@@ -28,10 +28,11 @@ Cryptography is the practice of securing communication so that only intended par
 ## 🔐 Caesar Cipher
 
 * Shifts letters by a fixed number
-* Easy to break (only 25 keys)
-* Example:
+* Weak and easy to break (only 25 possible keys)
 
-```plaintext id="cx0l8w"
+Example:
+
+```plaintext
 HELLO → KHOOR (key = 3)
 ```
 
@@ -39,8 +40,8 @@ HELLO → KHOOR (key = 3)
 
 ## 🔄 Symmetric Encryption
 
-* Same key for encryption and decryption
-* Fast but key sharing is a problem
+* Uses the same key for encryption and decryption
+* Fast but has a key distribution problem
 
 ### Examples:
 
@@ -69,30 +70,30 @@ HELLO → KHOOR (key = 3)
 * Same bits → 0
 * Different bits → 1
 
-```plaintext id="x7kt0k"
+```plaintext
 A ⊕ A = 0  
 A ⊕ 0 = A  
 ```
 
 ### Encryption:
 
-```plaintext id="0kjd9i"
-C = P ⊕ K
-P = C ⊕ K
+```plaintext
+C = P ⊕ K  
+P = C ⊕ K  
 ```
 
 ---
 
 ## ➗ Modulo Operation
 
-* Remainder after division
+* Returns the remainder after division
 
-```plaintext id="vlfk3m"
+```plaintext
 23 % 6 = 5
 ```
 
 * Not reversible
-* Result always between 0 and n-1
+* Result is always between 0 and n-1
 
 ---
 
@@ -100,7 +101,7 @@ P = C ⊕ K
 
 * DES is outdated and insecure
 * Always use strong algorithms (AES, RSA)
-* Cryptography is used in HTTPS, SSH, banking
+* Cryptography is used in HTTPS, SSH, and online banking
 
 ---
 
@@ -108,4 +109,4 @@ P = C ⊕ K
 
 * Cryptography ensures secure communication
 * Key management is critical
-* XOR and modulo are basic building blocks
+* XOR and modulo are fundamental concepts
