@@ -36,3 +36,14 @@ Understand the fundamentals of cryptography and how it is used in real-world sec
 ## 🚀 Next Step
 
 Public Key Cryptography Basics
+## ❗ Challenges
+
+- Understanding XOR initially  
+- Difference between symmetric and asymmetric encryption  
+
+---
+
+## 💡 How I Solved It
+
+- Practiced examples  
+- Compared both types step by step  
